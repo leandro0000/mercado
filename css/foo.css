@@ -1,0 +1,35 @@
+.final_pro {
+    box-shadow: 0px 0px 4px rgb(0, 0, 4);
+    background: yellow;
+}
+
+.futer_pro {
+    padding: 23px;
+}
+
+.futer_pro img {
+    display: table;
+    margin: auto;
+}
+
+.futer_pro h4 {
+    text-align: center;
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 0px;
+    color: blueviolet;
+}
+
+.futer_pro p {
+    text-align: center;
+    font-size: 14px;
+    color: #4b4b4b;
+    font-family: inherit;
+}
+
+.desi {
+    margin: auto;
+    color: darkviolet;
+    font-size: 18px;
+    font-family: fangsong;
+}

@@ -1,0 +1,127 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer {
+    background: #fff159;
+    width: 100%;
+    margin-top: 0px;
+    height: 103px;
+    box-sizing: border-box;
+}
+
+.footer img {
+    width: 69px;
+    transform: translate(0px, -3px);
+}
+
+.logo {
+    display: table;
+    margin: auto;
+}
+
+.bus input {
+    width: 500px;
+    height: 43px;
+    margin: 13px 0px;
+    font-size: 20px;
+    font-family: fangsong;
+    letter-spacing: 3px;
+    background: seashell;
+    border-radius: 4px;
+    border: 0 rgba(0, 0, 0, .2);
+}
+
+.bus img {
+    width: 42px;
+    height: 42px;
+    transform: translate(-47px, 15px);
+}
+
+.ofertas_pro img {
+    width: 275px;
+    margin: 26px -16px;
+}
+
+.menu li {
+    transform: translate(-52px, -6px);
+    list-style: none;
+}
+
+.menu a {
+    padding: 14px;
+    font-family: emoji;
+    color: #858042;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 16px;
+}
+
+.menu a:hover {
+    color: blue;
+}
+
+.menu>li {
+    float: left;
+    transition: 0.5s;
+}
+
+.menu ul {
+    position: absolute;
+}
+
+.menu li ul li {
+    position: relative;
+    background: #333;
+    transform: translate(-74px, 4px);
+    width: 182px;
+    height: 34px;
+}
+
+.menu ul li a {
+    color: #fff;
+    padding: 32px 25px;
+    font-family: emoj
+}
+
+.menu li ul {
+    display: none;
+}
+
+.menu li:hover>ul {
+    display: block;
+}
+
+.menu li ul li:hover>a {
+    color: #fff159;
+    line-height: 10px;
+}
+
+.boton {
+    width: 49px;
+    height: 44px;
+    padding: 14px 6px;
+    background: cornsilk;
+    cursor: pointer;
+    border-radius: 5px;
+    border: antiquewhite;
+    transform: translate(-3px, -2px);
+}
+
+.usuario_pro>li {
+    float: left;
+    transform: translate(-51px, -30px);
+    list-style: none;
+}
+
+.usuario_pro a {
+    padding: 10px;
+    color: #858042;
+    font-family: emoji;
+}
+
+.menu_boton {
+    display: none;
+    box-shadow: rgba(0, 0, 0, .2);
+}

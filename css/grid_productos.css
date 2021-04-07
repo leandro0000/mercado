@@ -1,0 +1,61 @@
+.container {
+    display: grid;
+    grid-template-columns: 95%;
+    grid-template-rows: repeat(8, auto);
+}
+
+.pago_pro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.lista {
+    margin: 10px 10px;
+}
+
+.descubre_pro {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+}
+
+.des_pro {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.belleza_pro {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 30% 68%;
+    grid-template-rows: 1fr;
+    column-gap: 10px;
+}
+
+.marca1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 12px;
+}
+
+.popular_pro {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, auto);
+    margin-top: 10px;
+}
+
+.foo_pro {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row: auto;
+}
+
+.final_pro {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    margin-top: 100px;
+}
